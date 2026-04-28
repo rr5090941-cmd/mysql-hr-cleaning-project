@@ -1,4 +1,3 @@
-![Banner]("C:\Users\ABHI\Downloads\Copilot_20260428_171112.png")
 
 
  MySQL HR Data Cleaning Project
