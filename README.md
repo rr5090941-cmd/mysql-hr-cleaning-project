@@ -74,13 +74,40 @@ Creating a final cleaned table
 
 
 📊 Before vs After (Data Quality Improvements)
-Category	Before Cleaning	After Cleaning
-Duplicate Records	87	0
-Invalid Emails	42	0
-Missing Values	High	Reduced significantly
-Date Format Issues	Multiple formats	Standardized
-Data Consistency	Low	High
-HR Reporting Readiness	Not usable	Fully ready
+Before Cleaning
+The dataset contained duplicate employee records.
+
+Dates were stored in multiple inconsistent formats.
+
+Many fields had missing or null values.
+
+Email formats were invalid or incorrectly structured.
+
+Names, departments, and job titles had inconsistent capitalization.
+
+Extra spaces, special characters, and formatting issues were common.
+
+Salary values were stored as text instead of numbers.
+
+Overall data quality was too low for HR reporting or analysis.
+
+After Cleaning
+
+All duplicate records were removed.
+
+Dates were standardized into one consistent format.
+
+Missing values were handled or replaced appropriately.
+
+Email formats were corrected and validated.
+
+Text fields were cleaned and properly capitalized.
+
+Extra spaces and unwanted characters were removed.
+
+Salary values were converted into proper numeric types.
+
+The dataset became clean, consistent, and ready for HR reporting and operations
 
 
 📁 Final Output
